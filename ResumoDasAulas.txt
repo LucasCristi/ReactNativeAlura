@@ -1,0 +1,65 @@
+AULA 1 
+
+Preparar o ambiente
+Instalamos o Node.js e o Expo para poder desenvolver aplicativos React Native com Expo.
+Diferenças entre React Native CLI e Expo CLI
+Entendemos que o Expo CLI cria uma aplicação React Native com limitações, em contrapartida podemos testar nossas aplicações 
+sem configurar Android Studio ou Xcode.
+Criar um aplicativo Expo do zero
+Utilizamos o Expo CLI para criar um projeto React Native em branco.
+Função live reload
+O React Native vem por padrão com a funcionalidade de live reload, que atualiza a tela do app ao salvar novos códigos em tempo real.
+
+Utilizar componentes:
+Aprendemos a utilizar componentes próprios do react native como Text e View, componentes de bibliotecas e também nossos 
+próprios componentes.
+Criar componentes:
+Utilizando funções, criamos nosso primeiro componente: a Cesta.
+Estilizar componentes:
+A fim de sermos mais fiéis ao layout, usamos estilos para mudar fontes, tamanhos, alinhamentos, espaçamentos e cores.
+Fonte externa:
+Usando uma biblioteca do expo, adicionamos uma fonte externa do Google Fontes e aplicamos um texto na nossa aplicação.
+
+Reutilizar componentes:
+Aprendemos a criar um componente reutilizável que encapsula a lógica de trocar a fonte do texto automaticamente.
+Usar parâmetros:
+Aprendemos a passar e resgatar parâmetros nos componentes.
+Desconstruir objetos:
+Conseguimos remover a camada externa dos objetos para que possamos passar cada parâmetro do objeto como um parâmetro do componente, 
+simplificando a declaração desses parâmetros.
+Estender o tempo da splash screen:
+Usando a biblioteca do Expo para chamar o AppLoading, podemos fazer a splash screen ser exibida por mais tempo enquanto as funções 
+do nosso app são carregadas antes de exibir o conteúdo de fato.
+
+Button:
+Aprendemos a usar o Button, que é um botão simples e com pouca customização.
+Botão Customizado:
+
+Com os componentes TouchableOpacity, TouchableWithoutFeesback, criamos botões muito mais customizados.
+ScrollView:
+
+Aprendemos a usar a ScrollView para permitir rolagem na tela, desde que não 
+usando FlatList, pois há incompatibilidades entre esses dois componentes.
+FlatList:
+
+Aprendemos a otimizar listas e fazer a rolagem da tela exclusivamente com o FlatList.
+
+////////////////////
+
+Com o Expo, podemos criar uma aplicação utilizando React Native, executá-la sem a necessidade 
+de instalar um ambiente complexo e até publicar nas lojas. Porém, como já vimos anteriormente, 
+o Expo tem suas limitações e pode chegar o momento em que você tenha que usar recursos que não estão disponíveis no Expo.
+
+E nessa hora, você pode se perguntar: e agora, terei de desenvolver tudo novamente com React Native 
+CLI fora do Expo? Na verdade, o Expo permite gerar os arquivos nativos que faltavam para executar no 
+react native puro.
+
+Esse processo é chamado de eject, e você pode acessar a documentação oficial clicando aqui. É importante 
+que você leia a documentação para entender se você realmente precisa fazer isso.
+
+Uma observação importante é que, neste curso, não vamos ver como executar os arquivos que o eject gera, pois 
+precisamos instalar o ambiente Android e o iOS nativo. Porém, é interessante que você saiba da existência do 
+eject para ajudar a tomar a decisão de qual CLI usar (Expo ou React Native). Sabendo que é possível ejetar 
+do Expo, você pode começar uma aplicação simples, sem medo de que possíveis novas features não possam ser implementadas.
+
+///////////////////
